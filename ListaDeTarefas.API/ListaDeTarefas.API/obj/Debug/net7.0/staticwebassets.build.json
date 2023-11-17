@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "N4IwIELRfo0sM2qHwkrGILcJ627NWVhAkgo2XEl8gjU=",
+  "Source": "ListaDeTarefas.API",
+  "BasePath": "_content/ListaDeTarefas.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
