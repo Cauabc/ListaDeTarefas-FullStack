@@ -5,7 +5,7 @@ Esse é um projeto FullStack que desenvolvi para treinar e adquirir experiência
 - Deletar tarefas
 - Todas as tarefas permanecerão lá mesmo após fechar, estarão armazenadas em um banco de dados
 - Filtrar tarefas por nome
-- Gerar uma planilha excel para as tarefas criadas
+- Gerar uma planilha automaticamente para as tarefas criadas
 
 
 ### Configuração
