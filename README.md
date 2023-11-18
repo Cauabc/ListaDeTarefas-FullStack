@@ -9,7 +9,7 @@ Esse é um projeto FullStack que desenvolvi para treinar e adquirir experiência
 
 
 ### Configuração
-Para rodar o projeto, abra o ListaDeTarefas.API, entre novamente na pasta **ListaDeTarefas.API** , execute o comando **dotnet watch run**, após abra o **ListaDeTarefas.FRONT**, execute o comando **npm install**, após, execute o comando **npm run dev**.
+Para rodar o projeto, abra o ListaDeTarefas.API, entre novamente na pasta **ListaDeTarefas.API** ou abra o arquivo .sln (abrirá o Visual Studio) , execute o comando **dotnet watch run**, após abra o **ListaDeTarefas.FRONT**, execute o comando **npm install**, após, execute o comando **npm run dev**.
 > **Pronto, tudo deve funcionar normalmente**
 >
 > ![image](https://github.com/Cauabc/ListaDeTarefas-FullStack/assets/115277406/4424bca0-c00a-4aad-93f4-259088d3a647)
