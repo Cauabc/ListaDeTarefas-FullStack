@@ -1,3 +1,4 @@
+using ListaDeTarefas.API.Controllers;
 using ListaDeTarefas.API.Data;
 using ListaDeTarefas.API.Interfaces;
 using ListaDeTarefas.API.Repositories;

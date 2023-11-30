@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "tJvGQQsewE5KwGaTCgLqBXHFJt/dvFKXpiaAOMOvdx6kjdJtXqAUeIQUfHEJybYOYJxigxY7lPke6JraHpBmYw==",
+  "dgSpecHash": "26BGfYWOOUlRtCD4FKXH4GoFwiH4jbru9aYdXggH5I7FSPFGLLtqZxfFc17WdWhoEPzrCorgF+YDi9bh1/zSDA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Caua\\Desktop\\ListaDeTarefas-FullStack-master\\ListaDeTarefas.API\\ListaDeTarefas.API\\ListaDeTarefas.API.csproj",
+  "projectFilePath": "C:\\Users\\Caua\\Desktop\\ListaDeTarefas.FullStack\\ListaDeTarefas.API\\ListaDeTarefas.API\\ListaDeTarefas.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Caua\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Caua\\.nuget\\packages\\epplus\\7.0.1\\epplus.7.0.1.nupkg.sha512",
     "C:\\Users\\Caua\\.nuget\\packages\\epplus.interfaces\\6.1.1\\epplus.interfaces.6.1.1.nupkg.sha512",
     "C:\\Users\\Caua\\.nuget\\packages\\epplus.system.drawing\\6.1.1\\epplus.system.drawing.6.1.1.nupkg.sha512",
@@ -55,7 +56,11 @@
     "C:\\Users\\Caua\\.nuget\\packages\\system.security.cryptography.pkcs\\7.0.3\\system.security.cryptography.pkcs.7.0.3.nupkg.sha512",
     "C:\\Users\\Caua\\.nuget\\packages\\system.text.encoding.codepages\\7.0.0\\system.text.encoding.codepages.7.0.0.nupkg.sha512",
     "C:\\Users\\Caua\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
-    "C:\\Users\\Caua\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"
+    "C:\\Users\\Caua\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
+    "C:\\Users\\Caua\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\Caua\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512",
+    "C:\\Users\\Caua\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\Caua\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512"
   ],
   "logs": []
 }

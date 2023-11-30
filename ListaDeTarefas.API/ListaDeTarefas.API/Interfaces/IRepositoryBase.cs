@@ -6,7 +6,7 @@ namespace ListaDeTarefas.API.Interfaces
     {
         Task<IEnumerable<T>> GetAll();
         void Add(T item);
-        void Update(Guid id, TaskModel item);
+        void Update(Guid id, T item);
         void Delete(Guid id);
         Task<T> GetById(Guid id);
         Task<bool> SaveAllAsync();

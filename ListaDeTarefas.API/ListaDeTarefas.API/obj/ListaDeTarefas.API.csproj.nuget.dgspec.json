@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Caua\\Desktop\\ListaDeTarefas-FullStack-master\\ListaDeTarefas.API\\ListaDeTarefas.API\\ListaDeTarefas.API.csproj": {}
+    "C:\\Users\\Caua\\Desktop\\ListaDeTarefas.FullStack\\ListaDeTarefas.API\\ListaDeTarefas.API\\ListaDeTarefas.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Caua\\Desktop\\ListaDeTarefas-FullStack-master\\ListaDeTarefas.API\\ListaDeTarefas.API\\ListaDeTarefas.API.csproj": {
+    "C:\\Users\\Caua\\Desktop\\ListaDeTarefas.FullStack\\ListaDeTarefas.API\\ListaDeTarefas.API\\ListaDeTarefas.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Caua\\Desktop\\ListaDeTarefas-FullStack-master\\ListaDeTarefas.API\\ListaDeTarefas.API\\ListaDeTarefas.API.csproj",
+        "projectUniqueName": "C:\\Users\\Caua\\Desktop\\ListaDeTarefas.FullStack\\ListaDeTarefas.API\\ListaDeTarefas.API\\ListaDeTarefas.API.csproj",
         "projectName": "ListaDeTarefas.API",
-        "projectPath": "C:\\Users\\Caua\\Desktop\\ListaDeTarefas-FullStack-master\\ListaDeTarefas.API\\ListaDeTarefas.API\\ListaDeTarefas.API.csproj",
+        "projectPath": "C:\\Users\\Caua\\Desktop\\ListaDeTarefas.FullStack\\ListaDeTarefas.API\\ListaDeTarefas.API\\ListaDeTarefas.API.csproj",
         "packagesPath": "C:\\Users\\Caua\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Caua\\Desktop\\ListaDeTarefas-FullStack-master\\ListaDeTarefas.API\\ListaDeTarefas.API\\obj\\",
+        "outputPath": "C:\\Users\\Caua\\Desktop\\ListaDeTarefas.FullStack\\ListaDeTarefas.API\\ListaDeTarefas.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Caua\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
             "EPPlus": {
               "target": "Package",
               "version": "[7.0.1, )"
@@ -84,6 +88,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -92,7 +114,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
