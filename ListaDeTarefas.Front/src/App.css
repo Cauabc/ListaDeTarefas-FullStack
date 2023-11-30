@@ -9,15 +9,15 @@
 .header h1{
   color: var(--font-color);
   text-transform: uppercase;
-  letter-spacing: 5px;
-  font-size: 2.5em;
+  letter-spacing: 1px;
+  font-size: clamp(1rem, 2.5em, 2rem);
   user-select: none;
   margin-bottom: 1.3em;
 }
 
 main.mainContent{
-  width: 60vw;
-  min-width: 400px;
+  width: 50vw;
+  min-width: 300px;
   height: 100vh;
   min-height: 100vh;
   display: flex;
@@ -200,7 +200,7 @@ button:disabled{
 .taskStatus{
   width: 100%;
   background-color: var(--primary-color);
-  border-radius: 5px 5px 0 0;
+  border-radius: 5px 0 0 5px;
   height: 4em;
   min-height: 4em;
   display: flex;
@@ -224,7 +224,7 @@ button:disabled{
 .filterTask{
   cursor: pointer;
   align-self: flex-start;
-  width: 15%;
+  width: clamp(100px, 15%, 400px);
   height: 3em;
   margin-bottom: 1em;
   background-color: var(--primary-color);
@@ -233,7 +233,6 @@ button:disabled{
   justify-content: center;
   border-radius: 5px;
   color: var(--font-color);
-  transition: 2s width;
 }
 
 .filterTask span{
@@ -276,15 +275,14 @@ button:disabled{
 .exportExcel button{
   background-color: rgb(2, 184, 2);
   border: 0;
-  border-radius: 5px;
+  border-radius: 0 5px 5px 0;
   width: 70px;
-  height: 50px;
+  height: 65px;
   color: #fff;
   cursor: pointer;
 }
 
-.exportExcel{
-  position: absolute;
-  top: 176px;
-  left: 170px;
+.taskInfo {
+  display: flex;
+  width: 100%;
 }
