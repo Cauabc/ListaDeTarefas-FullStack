@@ -2623,11 +2623,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Caua\\Desktop\\ListaDeTarefas.FullStack\\ListaDeTarefas.API\\ListaDeTarefas.API\\ListaDeTarefas.API.csproj",
+      "projectUniqueName": "C:\\Users\\Caua\\Desktop\\ListaDeTarefas-FullStack\\ListaDeTarefas.API\\ListaDeTarefas.API\\ListaDeTarefas.API.csproj",
       "projectName": "ListaDeTarefas.API",
-      "projectPath": "C:\\Users\\Caua\\Desktop\\ListaDeTarefas.FullStack\\ListaDeTarefas.API\\ListaDeTarefas.API\\ListaDeTarefas.API.csproj",
+      "projectPath": "C:\\Users\\Caua\\Desktop\\ListaDeTarefas-FullStack\\ListaDeTarefas.API\\ListaDeTarefas.API\\ListaDeTarefas.API.csproj",
       "packagesPath": "C:\\Users\\Caua\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Caua\\Desktop\\ListaDeTarefas.FullStack\\ListaDeTarefas.API\\ListaDeTarefas.API\\obj\\",
+      "outputPath": "C:\\Users\\Caua\\Desktop\\ListaDeTarefas-FullStack\\ListaDeTarefas.API\\ListaDeTarefas.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Caua\\AppData\\Roaming\\NuGet\\NuGet.Config",

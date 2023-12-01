@@ -10,9 +10,13 @@
 }
 
 body{
-  display: flex;
-  align-items: center;
-  justify-content: center;
   min-height: 100vh;
+  overflow-x: hidden;
   background-color: var(--background-color);
+  scrollbar-width: none; 
+  -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
