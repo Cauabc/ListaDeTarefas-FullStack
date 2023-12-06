@@ -198,6 +198,10 @@ button:disabled{
   color: rgba(131, 131, 131)
 }
 
+button{
+  user-select: none;
+}
+
 /* Task Status */
 
 .taskStatus{
@@ -236,6 +240,7 @@ button:disabled{
   justify-content: center;
   border-radius: 5px;
   color: var(--font-color);
+  user-select: none;
 }
 
 .filterTask span{
@@ -280,7 +285,7 @@ button:disabled{
   border: 0;
   border-radius: 0 5px 5px 0;
   width: 70px;
-  height: 65px;
+  height: 64px;
   color: #fff;
   cursor: pointer;
 }

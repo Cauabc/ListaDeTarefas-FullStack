@@ -79,3 +79,17 @@ C:\Users\Caua\Desktop\ListaDeTarefas-FullStack\ListaDeTarefas.API\ListaDeTarefas
 C:\Users\Caua\Desktop\ListaDeTarefas-FullStack\ListaDeTarefas.API\ListaDeTarefas.API\obj\Debug\net7.0\ListaDeTarefas.API.pdb
 C:\Users\Caua\Desktop\ListaDeTarefas-FullStack\ListaDeTarefas.API\ListaDeTarefas.API\obj\Debug\net7.0\ListaDeTarefas.API.genruntimeconfig.cache
 C:\Users\Caua\Desktop\ListaDeTarefas-FullStack\ListaDeTarefas.API\ListaDeTarefas.API\obj\Debug\net7.0\ref\ListaDeTarefas.API.dll
+C:\Users\Caua\Desktop\ListaDeTarefas-FullStack\ListaDeTarefas.API\ListaDeTarefas.API\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Caua\Desktop\ListaDeTarefas-FullStack\ListaDeTarefas.API\ListaDeTarefas.API\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Caua\Desktop\ListaDeTarefas-FullStack\ListaDeTarefas.API\ListaDeTarefas.API\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Caua\Desktop\ListaDeTarefas-FullStack\ListaDeTarefas.API\ListaDeTarefas.API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Caua\Desktop\ListaDeTarefas-FullStack\ListaDeTarefas.API\ListaDeTarefas.API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Caua\Desktop\ListaDeTarefas-FullStack\ListaDeTarefas.API\ListaDeTarefas.API\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\Caua\Desktop\ListaDeTarefas-FullStack\ListaDeTarefas.API\ListaDeTarefas.API\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Caua\Desktop\ListaDeTarefas-FullStack\ListaDeTarefas.API\ListaDeTarefas.API\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Caua\Desktop\ListaDeTarefas-FullStack\ListaDeTarefas.API\ListaDeTarefas.API\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Caua\Desktop\ListaDeTarefas-FullStack\ListaDeTarefas.API\ListaDeTarefas.API\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Caua\Desktop\ListaDeTarefas-FullStack\ListaDeTarefas.API\ListaDeTarefas.API\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Caua\Desktop\ListaDeTarefas-FullStack\ListaDeTarefas.API\ListaDeTarefas.API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Caua\Desktop\ListaDeTarefas-FullStack\ListaDeTarefas.API\ListaDeTarefas.API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Caua\Desktop\ListaDeTarefas-FullStack\ListaDeTarefas.API\ListaDeTarefas.API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll

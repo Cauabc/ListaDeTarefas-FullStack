@@ -15,7 +15,7 @@ namespace ListaDeTarefas.API.Repositories
         }
         public void Add(TaskModel item)
         {
-            if (_dataContext.Tasks.Any(t => t.Name == item.Name))
+            if (_dataContext.Tasks.Any(t => t.Name == item.Name && t.UserId == item.UserId))
             {
                 throw new InvalidOperationException("A tarefa já existe!");
             }
@@ -36,6 +36,11 @@ namespace ListaDeTarefas.API.Repositories
         public async Task<TaskModel> GetById(Guid id)
         {
             return await _dataContext.Tasks.FirstOrDefaultAsync(x => x.Id == id);
+        }
+
+        public async Task<List<TaskModel>> GetUserTasks(Guid id)
+        {
+            return await _dataContext.Tasks.Where(x => x.UserId == id).ToListAsync();
         }
 
         public async Task<bool> SaveAllAsync()

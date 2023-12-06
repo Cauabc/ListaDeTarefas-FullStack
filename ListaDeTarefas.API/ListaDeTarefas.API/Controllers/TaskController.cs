@@ -1,15 +1,16 @@
 ﻿using ListaDeTarefas.API.Interfaces;
 using ListaDeTarefas.API.Models;
-using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using OfficeOpenXml;
 using OfficeOpenXml.Style;
+
 
 namespace ListaDeTarefas.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class TaskController : ControllerBase
     {
         private readonly ITaskRepository _taskRepository;
@@ -26,10 +27,10 @@ namespace ListaDeTarefas.API.Controllers
             return await _taskRepository.GetAll();
         }
 
-        [HttpGet("gerarExcel")]
-        public async Task<IActionResult> GerarExcel()
+        [HttpGet("gerarExcel/{id}")]
+        public async Task<IActionResult> GerarExcel(Guid id)
         {
-            var tasks = await _taskRepository.GetAll();
+            var tasks = await _taskRepository.GetUserTasks(id);
             using (var package = new ExcelPackage())
             {
                 var worksheet = package.Workbook.Worksheets.Add("Tarefas");
@@ -68,17 +69,12 @@ namespace ListaDeTarefas.API.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetTaskById(Guid id)
+        public async Task<IActionResult> GetTaskByUser(Guid id)
         {
-            if (await _taskRepository.GetById(id) == null)
-            {
-                return NotFound("Tarefa não encontrada!");
-            }
-            return Ok(await _taskRepository.GetById(id));
+            return Ok(await _taskRepository.GetUserTasks(id));
         }
 
         [HttpPost]
-
         public async Task<IActionResult> Create(TaskModel request)
         {
             try
